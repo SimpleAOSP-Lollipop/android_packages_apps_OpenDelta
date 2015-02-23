@@ -47,4 +47,33 @@
 
     <string name="button_check_now">Verificar agora &#8230;</string>
     <string name="button_flash_now">Aplicar atualizações</string>
+
+    <!-- updates from 2013/12/18 -->
+    
+    <string name="action_secure_mode">Modo seguro</string>
+    
+    <string name="secure_mode_enabled_title">Modo seguro: ativado</string>
+    <string name="secure_mode_enabled_description"><![CDATA[Atualização\'(s) com assinatura criptográfica será verificada antes de ser flasheada para confirmar a sua origem, e nenhuma atualização adicional será flasheada. Este modo só é compatível com <b>TWRP</b>.]]></string>
+
+    <string name="secure_mode_disabled_title">Modo seguro: desativado</string>
+    <string name="secure_mode_disabled_description"><![CDATA[Atualizações adicionais serão flasheadas se presente. Note-se que qualquer pacote de software (malicioso) pode colocar essas atualizações e ganhar acesso total ao sistema. Aconselha-se precaução.]]></string>
+    
+    <string name="recovery_notice_title">Notícia</string>
+    <string name="recovery_notice_description_secure"><![CDATA[Flasheando atualizações no modo atual é suportado apenas em recuperações <b>TWRP</b> Por favor, verifique se você está executando uma recuperação compatível antes de continuar.]]></string>
+    <string name="recovery_notice_description_not_secure"><![CDATA[Flasheando atualizações no modo atual só é suportado oficialmente em recuperações <b>TWRP</b> <i>Oficial</i> <b>CWM</b> compilações são <i>não</i> suportado, embora alguns <i>construído pela comunidade</i> versões de <b>CWM</b> <i>pode</i> ainda funcionar. Por favor, verifique se você está executando uma recuperação compatível antes de continuar.]]></string>
+    
+    <string name="flash_after_update_notice_title">Notícia</string>
+    <string name="flash_after_update_notice_description"><![CDATA[Atualizações adicionais estão presentes na <b>Flash após atualização</b> pasta, mas o modo de segurança está ativado. Se você continuar, essas atualizações adicionais serão <b>não</b> Flasheada.]]></string>    
+
+    <!-- additions for developer mode -->
+    <string name="action_dev_mode">Faça login como desenvolvedor</string>
+    <string name="action_dev_mode_on">Logado como desenvolvedor</string>
+    <string name="dev_mode_login_logout_cancel">Cancelar</string>
+    <string name="dev_mode_login">Conecte-se</string>
+    <string name="dev_mode_logout">Sair</string>
+    <string name="dev_mode_login_password">Senha</string>
+    <string name="dev_mode_remember_dev_login">Lembrar</string>
+    <string name="dev_mode_login_wrong_pw">Senha errada</string>
+    <string name="dev_mode_logout_dev_mode">Sair do modo desenvolvedor?</string>
 </resources>
+
