@@ -8,5 +8,7 @@
       <item name="android:colorPrimaryDark">@color/theme_primary_dark</item>
       <!-- Used by controls, e.g. CheckBox, ProgressBar, etc. -->
       <item name="android:colorAccent">@color/theme_accent</item>
+      <!-- Background Color -->
+      <item name="android:windowBackground">@color/theme_background</item>      
     </style>    
 </resources>
